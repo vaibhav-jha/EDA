@@ -1,0 +1,57 @@
+.card {
+    margin: 20px;
+    width: 55%;    
+}
+
+._dash-loading {
+    margin: auto;
+    font-size: 50;
+}
+
+.kpi-header, .card-header{
+    background: rgba(0,0,0,0);
+    border: 0;
+    margin-top: inherit;
+    font-weight: bolder;
+}
+
+
+.summary_table{
+    --bs-table-striped-bg: rgba(0,0,0,0);
+    --bs-table-bg: rgba(0,0,0,0);
+    color: black;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd){
+    color: black;
+}
+
+.bg-warning {
+    background-color: rgb(250,218,94)!important;
+}
+
+.bg-danger {
+    background-color: rgb(252,146,114)!important;
+}
+
+.bg-success{
+    background-color: rgb(173,221,142)!important;
+}
+
+#open-modal {
+    border-color: rgb(240,120,100);
+    background-color: rgb(252,146,114);
+}
+
+.han_div{
+    border: 1px solid #82888a;
+    border-radius: 4%;
+    padding: 9px;
+    margin: .5%;
+}
+
+.table-bordered>:not(caption)>*>*{
+    border-width: 0;
+}
+
+
